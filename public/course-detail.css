@@ -1,0 +1,766 @@
+/* =========================================================================
+   COURSE DETAIL LUXURY CSS
+   Module for Premium Study Abroad Exam Prep Pages (ThemeForest Quality)
+   ========================================================================= */
+
+:root {
+    --course-primary: #1756b5;
+    --course-primary-light: #2682ff;
+    --course-accent: #f5b335;
+    --course-dark: #0f172a;
+    --course-text: #475569;
+    --course-bg-light: #f8fafc;
+    --course-glass-bg: rgba(255, 255, 255, 0.75);
+    --course-glass-border: rgba(255, 255, 255, 0.4);
+    --course-shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.08);
+    --course-shadow-sm: 0 10px 25px rgba(0, 0, 0, 0.05);
+    --course-radius: 20px;
+    --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body.course-page {
+    background-color: var(--course-bg-light);
+    color: var(--course-text);
+    font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--course-dark);
+}
+
+/* =========================================
+   SECTION 1: HERO BANNER
+   ========================================= */
+.course-hero {
+
+    position: relative;
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, rgb(98 139 175 / 90%) 0%, rgba(37, 99, 235, 0.4) 100%), url('../global/assets/img/coursebanner.png') center/cover no-repeat;
+    padding: 100px 0;
+    overflow: hidden;
+    color: #fff;
+}
+
+.hero-label {
+    display: inline-block;
+    padding: 6px 16px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    backdrop-filter: blur(10px);
+}
+
+.course-hero h1 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.course-hero p {
+    font-size: 18px;
+    line-height: 1.7;
+    opacity: 0.9;
+    margin-bottom: 40px;
+    max-width: 600px;
+    color: white;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 425px) {
+    .hero-btns {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 10px;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    .hero-btns a {
+        margin: 0 !important;
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.btn-luxury {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 30px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: var(--transition);
+    text-decoration: none;
+    border: none;
+}
+
+.btn-primary-luxury {
+    background: var(--course-accent);
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(245, 179, 53, 0.3);
+}
+
+.btn-primary-luxury:hover {
+    background: #fff;
+    color: var(--course-accent);
+    transform: translateY(-3px);
+}
+
+.btn-outline-luxury {
+    background: transparent;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+.btn-outline-luxury:hover {
+    background: #fff;
+    color: var(--course-primary);
+    transform: translateY(-3px);
+}
+
+/* Floating Cards */
+.hero-floating-cards {
+    position: relative;
+    height: 100%;
+    min-height: 400px;
+}
+
+.glass-floating-card {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: var(--course-radius);
+    padding: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    animation: floating 4s ease-in-out infinite;
+    width: max-content;
+}
+
+.glass-floating-card:nth-child(1) {
+    top: 10%;
+    right: 5%;
+    animation-delay: 0s;
+}
+
+.glass-floating-card:nth-child(2) {
+    top: 45%;
+    right: 25%;
+    animation-delay: 1.5s;
+}
+
+.glass-floating-card:nth-child(3) {
+    bottom: 5%;
+    right: 10%;
+    animation-delay: 3s;
+}
+
+.floating-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--course-accent), #f97316);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.glass-floating-card h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.glass-floating-card span {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* =========================================
+   SECTION 2: STICKY NAVIGATION (Simple & Professional)
+   ========================================= */
+.course-nav-section {
+    background: #fff;
+    padding: 0;
+    position: sticky;
+    top: 110px;
+    z-index: 990;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.course-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.course-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.course-nav-link {
+    padding: 20px 5px;
+    color: var(--course-text);
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    position: relative;
+    top: 1px;
+    /* Overlaps the container's bottom border cleanly */
+}
+
+.course-nav-link:hover {
+    color: var(--course-primary);
+}
+
+.course-nav-link.active {
+    color: var(--course-primary);
+    font-weight: 600;
+    border-bottom-color: var(--course-primary);
+}
+
+/* =========================================
+   GENERAL SECTION STYLING
+   ========================================= */
+.luxury-section {
+    padding: 75px 0;
+    background: #fff;
+}
+
+.luxury-section.alt-bg {
+    background: var(--course-bg-light);
+}
+
+.section-title-luxury {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-subtitle-luxury {
+    font-size: 16px;
+}
+
+/* =========================================
+   SECTION 3: ABOUT EXAM (Split Layout)
+   ========================================= */
+.about-illustration {
+    position: relative;
+    border-radius: var(--course-radius);
+    overflow: hidden;
+    box-shadow: var(--course-shadow-lg);
+}
+
+.features-flex-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.feature-glass-card {
+    background: var(--course-glass-bg);
+    backdrop-filter: blur(15px);
+    border: 1px solid var(--course-glass-border);
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: var(--course-shadow-sm);
+    transition: var(--transition);
+    flex: 1 1 0;
+    min-width: 140px;
+}
+
+.feature-glass-card:hover {
+    transform: translateY(-5px);
+    background: #fff;
+    border-color: var(--course-primary-light);
+}
+
+.feature-icon-wrapper {
+    width: 40px;
+    height: 40px;
+    background: rgba(23, 86, 181, 0.1);
+    color: var(--course-primary);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+.feature-glass-card h5 {
+    font-size: 15px;
+}
+
+.feature-glass-card p {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+/* =========================================
+   SECTION 4: WHY CHOOSE US
+   ========================================= */
+.why-us-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.premium-icon-card {
+    background: #fff;
+    border: 1px solid var(--course-glass-border);
+    border-radius: var(--course-radius);
+    padding: 15px;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Vertically center the text with the icon */
+}
+
+.premium-icon-card h4 {
+    font-size: 14px !important;
+    font-weight: 100 !important;
+    line-height: 1.6;
+    color: var(--course-dark);
+    margin: 0;
+}
+
+.premium-icon-card:hover {
+    box-shadow: var(--course-shadow-lg);
+    border-color: transparent;
+    transform: translateY(-5px);
+}
+
+.premium-icon-card .icon-box {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--course-primary-light), var(--course-primary));
+    color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+/* =========================================
+   TEST STRUCTURE CARDS (Simple & Professional)
+   ========================================= */
+.test-structure-card {
+    background: #fff;
+    border: 1px solid var(--course-glass-border);
+    border-radius: var(--course-radius);
+    overflow: hidden;
+    transition: var(--transition);
+    box-shadow: var(--course-shadow-sm);
+    display: flex;
+    flex-direction: column;
+}
+
+.test-structure-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--course-shadow-lg);
+    border-color: var(--course-primary-light);
+}
+
+.card-top {
+    background: linear-gradient(to right, #f8fafc, #f1f5f9);
+    padding: 7px;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: center;
+}
+
+.part-badge {
+    display: inline-block;
+    background: rgba(23, 86, 181, 0.1);
+    color: var(--course-primary);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.card-top h4 {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    color: var(--course-dark);
+}
+
+.duration-badge {
+    color: var(--course-text);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card-bottom {
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.test-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.test-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    color: var(--course-text);
+    font-size: 14.5px;
+    line-height: 1.5;
+}
+
+.test-list li:last-child {
+    margin-bottom: 0;
+}
+
+.test-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: var(--course-accent);
+    /* use gold accent */
+    font-weight: bold;
+}
+
+/* =========================================
+   SIMPLE SCORE CARD
+   ========================================= */
+.simple-score-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    border: 1px solid var(--course-glass-border);
+    box-shadow: var(--course-shadow-sm);
+    height: 100%;
+    transition: var(--transition);
+}
+
+.simple-score-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--course-primary-light);
+}
+
+.simple-score-card .score-icon {
+    width: 60px;
+    height: 60px;
+    background: rgba(23, 86, 181, 0.05);
+    color: var(--course-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: 0 auto 20px;
+}
+
+.simple-score-card h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--course-dark);
+}
+
+.simple-score-card p {
+    font-size: 13px;
+    color: var(--course-text);
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* =========================================
+   SECTION 7: TESTIMONIALS
+   ========================================= */
+.testimonial-glass-card {
+    background: #fff;
+    border-radius: var(--course-radius);
+    padding: 40px;
+    box-shadow: var(--course-shadow-sm);
+    margin: 20px 10px;
+    border: 1px solid var(--border);
+}
+
+.student-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.student-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--course-accent);
+}
+
+.student-meta h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.student-meta span {
+    font-size: 13px;
+    color: var(--course-text);
+}
+
+.score-badge {
+    background: rgba(245, 179, 53, 0.1);
+    color: #d97706;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* =========================================
+   SECTION 8: RECENT TOP SCORES
+   ========================================= */
+.simple-result-card {
+    background: #fff;
+    border: 1px solid var(--course-glass-border);
+    border-radius: 12px;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: var(--course-shadow-sm);
+    transition: var(--transition);
+    width: 100%;
+    min-width: 0;
+}
+
+.simple-result-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--course-primary-light);
+    box-shadow: var(--course-shadow-lg);
+}
+
+.result-score {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--course-primary);
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.result-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--course-dark);
+}
+
+/* =========================================
+   SECTION 9: FAQ
+   ========================================= */
+.luxury-accordion .accordion-item {
+    border: 1px solid var(--border);
+    border-radius: 12px !important;
+    margin-bottom: 15px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.luxury-accordion .accordion-button {
+    font-weight: 600;
+    color: var(--course-dark);
+    padding: 20px 25px;
+    background: #fff;
+    box-shadow: none;
+}
+
+.luxury-accordion .accordion-button:not(.collapsed) {
+    background: rgba(23, 86, 181, 0.03);
+    color: var(--course-primary);
+}
+
+/* =========================================
+   SECTION 10: CTA
+   ========================================= */
+.cta-luxury {
+    background: linear-gradient(to right, var(--course-primary), var(--course-primary-light));
+    border-radius: 30px;
+    padding: 80px 40px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin: 100px 0;
+}
+
+.cta-luxury h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.cta-luxury p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 40px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .course-hero h1 {
+        font-size: 25px;
+    }
+
+    .why-us-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .timeline-card {
+        flex-direction: column;
+    }
+
+    .timeline-header {
+        min-width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .course-hero h1 {
+        font-size: 20px;
+    }
+
+    .hero-floating-cards {
+        display: none;
+    }
+
+    .cta-luxury h2 {
+        font-size: 2rem;
+    }
+
+    .why-us-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .luxury-section {
+        padding: 30px 0%;
+    }
+
+    .course-nav-link {
+        padding: 10px 0px;
+    }
+
+    /* Force leaderboard 5 cards to fit on one line on mobile */
+    .simple-result-card {
+        padding: 10px 2px;
+    }
+    
+    .result-score {
+        font-size: 16px;
+    }
+    
+    .result-name {
+        font-size: 10px;
+        word-break: break-word;
+    }
+    
+    #leaderboard .gap-2 {
+        gap: 0.25rem !important;
+    }
+}
+
+/* =========================================
+   CLEAN INFO LIST
+   ========================================= */
+.info-clean-list {
+    margin-top: 30px;
+}
+
+.info-clean-item {
+    border-bottom: 1px solid #e2e8f0;
+    padding: 30px 0;
+}
+
+.info-clean-item:last-child {
+    border-bottom: none;
+}
+
+.info-clean-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--course-dark);
+    margin-bottom: 12px;
+}
+
+.info-clean-text {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.8;
+    margin: 0;
+}
