@@ -15,6 +15,8 @@ import Gmat from './pages/Gmat';
 import Gre from './pages/Gre';
 import Ielts from './pages/Ielts';
 import Home from './pages/Home';
+import ReplicateHome from './pages/replicate/ReplicateHome';
+import ReplicateService from './pages/replicate/ReplicateService';
 import Oet from './pages/Oet';
 import Pte from './pages/Pte';
 
@@ -89,11 +91,27 @@ function App() {
         <Route path="/gre" element={<Gre />} />
         <Route path="/ielts" element={<Ielts />} />
         <Route path="/" element={<Home />} />
+        <Route path="/best-overseas-education-consultants-in-coimbatore" element={<ReplicateHome />} />
+        <Route path="/best-overseas-education-consultants-in-chennai" element={<ReplicateHome />} />
+        <Route path="/best-overseas-education-consultants-in-erode" element={<ReplicateHome />} />
+        <Route path="/best-overseas-education-consultants-in-tirupur" element={<ReplicateHome />} />
+        <Route path="/best-overseas-education-consultants-in-salem" element={<ReplicateHome />} />
+        <Route path="/best-overseas-education-consultants-in-madurai" element={<ReplicateHome />} />
+        <Route path="/best-overseas-education-consultants-in-tirunelveli" element={<ReplicateHome />} />
+        <Route path="/best-overseas-education-consultants-in-bangalore" element={<ReplicateHome />} />
         <Route path="/oet" element={<Oet />} />
         <Route path="/pte" element={<Pte />} />
 
         <Route path="/sat" element={<Sat />} />
         <Route path="/services" element={<Service />} />
+        <Route path="/overseas-education-consulting-services-in-coimbatore" element={<ReplicateService />} />
+        <Route path="/overseas-education-consulting-services-in-chennai" element={<ReplicateService />} />
+        <Route path="/overseas-education-consulting-services-in-erode" element={<ReplicateService />} />
+        <Route path="/overseas-education-consulting-services-in-tirupur" element={<ReplicateService />} />
+        <Route path="/overseas-education-consulting-services-in-salem" element={<ReplicateService />} />
+        <Route path="/overseas-education-consulting-services-in-madurai" element={<ReplicateService />} />
+        <Route path="/overseas-education-consulting-services-in-tirunelveli" element={<ReplicateService />} />
+        <Route path="/overseas-education-consulting-services-in-bangalore" element={<ReplicateService />} />
         <Route path="/study-in-denmark" element={<StudyInDenmark />} />
         <Route path="/study-in-dubai" element={<StudyInDubai />} />
         <Route path="/study-in-france" element={<StudyInFrance />} />

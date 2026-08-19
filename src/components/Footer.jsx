@@ -41,8 +41,8 @@ const Footer = () => {
   <div class="social-links mt-4">
     <a href="https://www.facebook.com/theglobalties" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
     <a href="https://www.instagram.com/theglobalties/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-    <a href="https://x.com/theglobalties" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-    <a href="https://www.youtube.com/theglobalties" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.linkedin.com/company/the-global-ties/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.youtube.com/@the_global_ties?si=6RHf9JXNTSkapvMM" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
   </div>
 </div>
         <div class="col-lg-3 col-md-6">
