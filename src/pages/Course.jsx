@@ -64,7 +64,7 @@ const Course = () => {
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
-                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000&auto=format&fit=crop" alt="PTE Exam" className="img-fluid about-illustration" />
+                    <img src="/assets/img/hand.avif" alt="PTE Exam" className="img-fluid about-illustration" />
                 </div>
                 <div className="col-lg-6 px-lg-5" data-aos="fade-left">
                 <h2 className="section-title">

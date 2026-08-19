@@ -425,7 +425,7 @@
     min-height: 80vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(247, 248, 252, 0.85), rgba(247, 248, 252, 0.95)), url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1920&auto=format&fit=crop') center/cover no-repeat;
+    background: linear-gradient(rgba(247, 248, 252, 0.85), rgba(247, 248, 252, 0.95)), url('/assets/img/flight.avif') center/cover no-repeat;
     overflow: hidden;
     padding: 75px 0%;
 }
@@ -877,7 +877,7 @@ h2 {
    PREMIUM DESTINATIONS SECTION
    ========================================= */
 .premium-destinations {
-    background: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1920&auto=format&fit=crop') center/cover no-repeat fixed;
+    background: url('/assets/img/boy.avif') center/cover no-repeat fixed;
     padding: 75px 0%;
     position: relative;
     overflow: hidden;

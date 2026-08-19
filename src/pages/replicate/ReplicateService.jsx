@@ -195,7 +195,7 @@ const ReplicateService = () => {
                         </div>
                         <div className="hero-content-right">
                             <div className="hero-image-wrapper">
-                                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop"
+                                <img src="/assets/img/crop.avif"
                                     alt="International Students" className="hero-illustration" />
                             </div>
                         </div>
@@ -279,7 +279,7 @@ const ReplicateService = () => {
 
                         <div className="pis-image-area">
                             <div className="pis-image-container" id="pis-slider-container">
-                                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop" id="pis-main-image" alt="Study Abroad Benefits" />
+                                <img src="/assets/img/crop.avif" id="pis-main-image" alt="Study Abroad Benefits" />
                                 <div className="pis-progress-bar">
                                     <div className="pis-progress" id="pis-progress"></div>
                                 </div>
