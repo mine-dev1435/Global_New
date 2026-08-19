@@ -715,8 +715,8 @@ Thousands of students have successfully started their global education journey w
                   </div>
                   <div>
                     <span className="d-block text-white opacity-75 small">Email Admission Cell</span>
-                    <span className="fw-bold fs-5 text-white"><a href="mailto:info@globalties.com" className="fw-bold fs-5 text-white text-decoration-none">
-        info@globalties.com
+                    <span className="fw-bold fs-5 text-white"><a href="mailto:info@theglobalties.com" className="fw-bold fs-5 text-white text-decoration-none">
+        info@theglobalties.com
       </a></span>
                   </div>
                 </div>
