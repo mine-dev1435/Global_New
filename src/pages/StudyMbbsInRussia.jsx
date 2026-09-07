@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
-
 const StudyMbbsInRussia = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyMbbsInRussia - GlobalEdu</title>
+        <title>MBBS in Russia | Best MBBS Consultants in Coimbatore</title>
+        <meta name="description" content="Study MBBS in Russia with expert education consultants in Coimbatore. Complete guidance on top NMC & WHO-recognized Russian medical universities, affordable fees, eligibility & student visa support." />
+        <meta name="keywords" content="MBBS in Russia" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -135,7 +136,7 @@ const StudyMbbsInRussia = () => {
   {/*  Hero Section  */}
   <section className="mbbs-hero">
     <div className="container" data-aos="fade-up">
-      <h1>Study MBBS in <span className="accent-text" style={{ color: `var(--accent)` }}>Russia</span></h1>
+      <h1>MBBS in <span className="accent-text" style={{ color: `var(--accent)` }}>Russia</span></h1>
       <p>Russia has been a leading choice for medical studies among international students due to its high-quality education, advanced facilities, and heavily subsidized fees.</p>
     </div>
   </section>
@@ -281,12 +282,8 @@ experienced faculty, English-medium programs, and excellent clinical exposure.</
     </div>
   </section>
 
-  {/*  Footer  */}
-  
-  
-  
-  
-  
+  {/* Related Destinations */}
+
       </main>
       <Footer />
     </>

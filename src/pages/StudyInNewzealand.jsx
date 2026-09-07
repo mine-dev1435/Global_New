@@ -4,13 +4,14 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
-
 const StudyInNewzealand = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyInNewzealand - GlobalEdu</title>
+        <title>Study in New Zealand | Best New Zealand Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in New Zealand with expert education consultants in Coimbatore. Get trusted guidance on top university admissions, student visa assistance & post-study work pathways." />
+        <meta name="keywords" content="Study in New Zealand" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

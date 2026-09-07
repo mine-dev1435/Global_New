@@ -8,7 +8,9 @@ const About = () => {
     <>
       <Header />
       <Helmet>
-        <title>About - GlobalEdu</title>
+        <title>About The Global Ties | Study Abroad Consultants in Coimbatore</title>
+        <meta name="description" content="Learn about The Global Ties, premier study abroad consultants in Coimbatore. We provide expert overseas education guidance, university admissions & visa assistance." />
+        <meta name="keywords" content="Study Abroad Consultants in Coimbatore, Study Abroad, Study in Canada, Study in UK, Study in Australia, MBBS Abroad, IELTS" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -648,9 +650,6 @@ const About = () => {
   
 
   {/*  Scripts  */}
-  
-  
-  
       </main>
       <Footer />
     </>

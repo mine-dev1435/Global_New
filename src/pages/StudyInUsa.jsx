@@ -4,13 +4,14 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
-
 const StudyInUsa = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyInUsa - GlobalEdu</title>
+        <title>Study in USA | Best USA Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in USA with expert education consultants in Coimbatore. Comprehensive assistance for university shortlisting, I-20 documentation, F-1 visa interview prep & scholarships." />
+        <meta name="keywords" content="Study in USA" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

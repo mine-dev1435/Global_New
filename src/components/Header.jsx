@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     const dropdownToggles = document.querySelectorAll('.nav-link.dropdown-toggle');
     
@@ -34,13 +36,35 @@ const Header = () => {
       toggle.addEventListener('click', handleToggleClick);
     });
 
+    // Handle Header Apply Now button click
+    const applyBtns = document.querySelectorAll('.custom-navbar .apply-btn, .apply-btn');
+    const handleApplyClick = (e) => {
+      e.preventDefault();
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        const navbarHeight = 70;
+        const y = contactSection.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      } else {
+        sessionStorage.setItem('scrollToContact', 'true');
+        navigate('/');
+      }
+    };
+
+    applyBtns.forEach(btn => {
+      btn.addEventListener('click', handleApplyClick);
+    });
+
     // Cleanup
     return () => {
       dropdownToggles.forEach(toggle => {
         toggle.removeEventListener('click', handleToggleClick);
       });
+      applyBtns.forEach(btn => {
+        btn.removeEventListener('click', handleApplyClick);
+      });
     };
-  }, []);
+  }, [navigate]);
 
   return (
     <div dangerouslySetInnerHTML={{ __html: `    
@@ -180,7 +204,7 @@ const Header = () => {
 
             </ul>
 
-            <a href="/#contact" class="btn-custom apply-btn ">
+            <a href="#contact" class="btn-custom apply-btn">
                 Apply Now
             </a>
 

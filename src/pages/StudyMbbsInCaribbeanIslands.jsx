@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
-
 const StudyMbbsInCaribbeanIslands = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyMbbsInCaribbeanIslands - GlobalEdu</title>
+        <title>MBBS in Caribbean Islands | MBBS Consultants in Coimbatore</title>
+        <meta name="description" content="Study MBBS in Caribbean Islands with expert consultants in Coimbatore. Explore USMLE-focused medical programs, clinical rotations in USA & Canada, admissions & visa guidance." />
+        <meta name="keywords" content="MBBS in Caribbean Islands" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -135,7 +136,7 @@ const StudyMbbsInCaribbeanIslands = () => {
   {/*  Hero Section  */}
   <section className="mbbs-hero">
     <div className="container" data-aos="fade-up">
-      <h1>Study MBBS in <span className="accent-text" style={{ color: `var(--accent)` }}>Caribbean Islands</span></h1>
+      <h1>MBBS in <span className="accent-text" style={{ color: `var(--accent)` }}>Caribbean Islands</span></h1>
       <p>The Caribbean Islands offer American-curriculum based medical programs, providing a direct pathway for students looking to practice medicine in the USA or Canada.</p>
     </div>
   </section>
@@ -276,12 +277,8 @@ const StudyMbbsInCaribbeanIslands = () => {
     </div>
   </section>
 
-  {/*  Footer  */}
-  
-  
-  
-  
-  
+  {/* Related Destinations */}
+
       </main>
       <Footer />
     </>

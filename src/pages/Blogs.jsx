@@ -8,7 +8,9 @@ const Blogs = () => {
     <>
       <Header />
       <Helmet>
-        <title>Blogs - GlobalEdu</title>
+        <title>Study Abroad Blogs & Guides | The Global Ties Coimbatore</title>
+        <meta name="description" content="Read the latest study abroad blogs and guides by The Global Ties Coimbatore. Get insights on foreign universities, student visas, exam prep, and international careers." />
+        <meta name="keywords" content="Study Abroad Blogs, Study Abroad Consultants, Study in Canada, Study in UK, Study in Australia, Study in USA, MBBS Abroad, IELTS Coaching, PTE Coaching" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -175,7 +177,7 @@ const Blogs = () => {
     <!-- Header Section -->
         <section class="about-hero">
         <div class="container" data-aos="fade-up">
-            <h1>Our Insights & <span class="accent-text" style="color:var(--accent);">Blogs</span></h1>
+            <h1><span class="accent-text" style="color:var(--accent);">Study Abroad</span> Blogs</h1>
             <p>Stay updated with the latest trends in global education, visa procedures, exam updates, and student success stories.</p>
         </div>
     </section>

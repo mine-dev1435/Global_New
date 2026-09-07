@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
-
 const Ielts = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>Ielts - GlobalEdu</title>
+        <title>IELTS Coaching in Coimbatore | Best IELTS Training Institute</title>
+        <meta name="description" content="Join IELTS coaching in Coimbatore with The Global Ties. Expert trainers, flexible batches, proven score improvement & comprehensive mock tests." />
+        <meta name="keywords" content="IELTS Coaching" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -172,7 +173,7 @@ const Ielts = () => {
   {/*  Hero Section  */}
   <section className="tp-hero">
     <div className="container" data-aos="fade-up">
-      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>IELTS</span> Preparation</h1>
+      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>IELTS</span> Coaching</h1>
       <p>Achieve your target score with our expert-led IELTS coaching. Comprehensive study materials, mock tests, and personalized feedback to guarantee your success.</p>
     </div>
   </section>
@@ -451,7 +452,8 @@ const Ielts = () => {
     </div>
   </section>
 
-  {/*  Footer  */}
+  {/* Related Courses */}
+
       </main>
       <Footer />
     </>

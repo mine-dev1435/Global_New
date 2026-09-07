@@ -4,13 +4,14 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
-
 const StudyInUk = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyInUk - GlobalEdu</title>
+        <title>Study in UK | Best UK Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in UK with expert education consultants in Coimbatore. Get expert guidance on top British universities, CAS letter processing, scholarships & graduate route visas." />
+        <meta name="keywords" content="Study in UK" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

@@ -4,13 +4,14 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import InstagramStories from '../components/InstagramStories';
 import { Helmet } from 'react-helmet-async';
-
 const StudyInGermany = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyInGermany - GlobalEdu</title>
+        <title>Study in Germany | Best Germany Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in Germany with expert education consultants in Coimbatore. Explore tuition-free public universities, APS certification guidance & complete visa support." />
+        <meta name="keywords" content="Study in Germany" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

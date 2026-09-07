@@ -9,7 +9,9 @@ const Service = () => {
         <>
             <Header />
             <Helmet>
-                <title>Service - GlobalEdu</title>
+                <title>Study Abroad Services in Coimbatore | The Global Ties</title>
+                <meta name="description" content="Explore study abroad services in Coimbatore with The Global Ties. Complete guidance for overseas admissions, visa processing, test prep, and career counseling." />
+                <meta name="keywords" content="Study Abroad Services in Coimbatore, Study Abroad Consultants, Study in Canada, Study in UK, Study in Australia, Study in USA, MBBS Abroad, IELTS Coaching, PTE Coaching" />
             </Helmet>
             <main>
                 {/* Original HTML */}
@@ -24,7 +26,7 @@ const Service = () => {
 
     <section className="about-hero">
         <div className="container" data-aos="fade-up">
-            <h1>Our <span className="accent-text" style={{ color: `var(--accent)` }}>Services</span></h1>
+            <h1>Study Abroad <span className="accent-text" style={{ color: `var(--accent)` }}>Services in Coimbatore</span></h1>
             <p>We provide comprehensive guidance and support to make your global education dreams a reality.</p>
         </div>
     </section>
@@ -322,8 +324,6 @@ const Service = () => {
                 </div>
             </section>
  
-    <main>
-       
      <section className="request-info-section" style={{ padding: `80px 0` }}>
       <div className="layout-container">
           <div className="row align-items-center g-5">
@@ -369,13 +369,9 @@ const Service = () => {
             </div>
           </div>
       </div>
-   </section>
-</main>
-  
-
-    
-      </main>
-            <Footer />
+    </section>
+    </main>
+    <Footer />
         </>
     );
 };

@@ -4,13 +4,14 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
-
 const StudyInItaly = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyInItaly - GlobalEdu</title>
+        <title>Study in Italy | Best Italy Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in Italy with expert education consultants in Coimbatore. Complete guidance on Universitaly pre-enrollment, DSU scholarships, university admissions & Italian student visas." />
+        <meta name="keywords" content="Study in Italy" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

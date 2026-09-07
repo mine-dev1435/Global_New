@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
-
 const Sat = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>Sat - GlobalEdu</title>
+        <title>SAT Coaching in Coimbatore | Best SAT Prep Training</title>
+        <meta name="description" content="Get expert SAT coaching in Coimbatore. Comprehensive preparation for digital SAT, personalized mentoring, practice tests & guaranteed score boost." />
+        <meta name="keywords" content="SAT Coaching" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -174,7 +175,7 @@ const Sat = () => {
   {/*  Hero Section  */}
   <section className="tp-hero">
     <div className="container" data-aos="fade-up">
-      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>SAT</span> Preparation</h1>
+      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>SAT</span> Coaching</h1>
       <p>Achieve your target score with our expert-led SAT coaching. Comprehensive study materials, mock tests, and personalized feedback to guarantee your success.</p>
     </div>
   </section>
@@ -490,12 +491,8 @@ const Sat = () => {
     </div>
   </section>
 
-  {/*  Footer  */}
-  
-  
-  
-  
-  
+  {/* Related Courses */}
+
       </main>
       <Footer />
     </>

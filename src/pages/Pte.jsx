@@ -8,7 +8,9 @@ const Pte = () => {
     <>
       <Header />
       <Helmet>
-        <title>Pte - GlobalEdu</title>
+        <title>PTE Coaching in Coimbatore | Best PTE Academic Training</title>
+        <meta name="description" content="Join PTE coaching in Coimbatore. AI-scored mock tests, fast-track batches, expert tips and tricks for PTE Academic success." />
+        <meta name="keywords" content="PTE Coaching" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -174,7 +176,7 @@ const Pte = () => {
   {/*  Hero Section  */}
   <section className="tp-hero">
     <div className="container" data-aos="fade-up">
-      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>PTE</span> Preparation</h1>
+      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>PTE</span> Coaching</h1>
       <p>Achieve your target score with our expert-led PTE coaching. Comprehensive study materials, mock tests, and personalized feedback to guarantee your success.</p>
     </div>
   </section>
@@ -492,11 +494,6 @@ const Pte = () => {
   </section>
 
   {/*  Footer  */}
-  
-  
-  
-  
-  
       </main>
       <Footer />
     </>

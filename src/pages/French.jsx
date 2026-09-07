@@ -8,7 +8,9 @@ const French = () => {
     <>
       <Header />
       <Helmet>
-        <title>French - GlobalEdu</title>
+        <title>French Language Classes in Coimbatore | Learn French</title>
+        <meta name="description" content="Learn French in Coimbatore from certified language experts. A1, A2, B1, B2 levels, interactive sessions & DELF/DALF exam preparation." />
+        <meta name="keywords" content="French Classes" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -168,7 +170,7 @@ const French = () => {
   {/*  Hero Section  */}
   <section className="tp-hero">
     <div className="container" data-aos="fade-up">
-      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>French</span> Preparation</h1>
+      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>French</span> Classes</h1>
       <p>Achieve your target score with our expert-led French coaching. Comprehensive study materials, mock tests, and personalized feedback to guarantee your success.</p>
     </div>
   </section>
@@ -432,11 +434,6 @@ const French = () => {
   </section>
 
   {/*  Footer  */}
-  
-  
-  
-  
-  
       </main>
       <Footer />
     </>

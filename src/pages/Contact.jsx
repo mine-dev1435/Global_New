@@ -9,7 +9,9 @@ const Contact = () => {
     <>
       <Header />
       <Helmet>
-        <title>Contact - GlobalEdu</title>
+        <title>Contact Study Abroad Consultants in Coimbatore | The Global Ties</title>
+        <meta name="description" content="Contact The Global Ties, trusted study abroad consultants in Coimbatore. Reach out to our expert team for personalized counseling, university admissions, and visa help." />
+        <meta name="keywords" content="Study Abroad Consultants in Coimbatore, Study Abroad Services, Study in Canada, Study in UK, Study in Australia, Study in USA, MBBS Abroad, IELTS Coaching" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -138,7 +140,7 @@ const Contact = () => {
     {/*  Header Section  */}
         <section className="about-hero">
         <div className="container" data-aos="fade-up">
-            <h1>Contact <span className="accent-text" style={{ color: `var(--accent)` }}>Us</span></h1>
+            <h1>Contact <span className="accent-text" style={{ color: `var(--accent)` }}>Study Abroad Consultants</span> in Coimbatore</h1>
             <p>Get in touch with our branches or drop us a query. Our expert counseling team is ready to guide you.</p>
         </div>
     </section>
@@ -261,9 +263,6 @@ const Contact = () => {
     
 
     {/*  JS dependencies  */}
-    
-    
-    
       </main>
       <Footer />
     </>

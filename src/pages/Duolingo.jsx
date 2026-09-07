@@ -8,7 +8,9 @@ const Duolingo = () => {
     <>
       <Header />
       <Helmet>
-        <title>Duolingo - GlobalEdu</title>
+        <title>Duolingo English Test Coaching in Coimbatore</title>
+        <meta name="description" content="Prepare for the Duolingo English Test in Coimbatore. Fast, affordable test prep with expert guidance and real test practice questions." />
+        <meta name="keywords" content="Duolingo Coaching" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -165,7 +167,7 @@ const Duolingo = () => {
   {/*  Hero Section  */}
   <section className="tp-hero">
     <div className="container" data-aos="fade-up">
-      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>Duolingo</span> English Test</h1>
+      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>Duolingo</span> Coaching</h1>
       <p>Achieve your target score with our expert-led Duolingo coaching. One hour. One laptop. Results in 48 hours.</p>
     </div>
   </section>
@@ -433,11 +435,6 @@ const Duolingo = () => {
   </section>
 
   {/*  Footer  */}
-  
-  
-  
-  
-  
       </main>
       <Footer />
     </>

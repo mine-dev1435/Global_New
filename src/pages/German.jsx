@@ -8,7 +8,9 @@ const German = () => {
     <>
       <Header />
       <Helmet>
-        <title>German - GlobalEdu</title>
+        <title>German Language Classes in Coimbatore | Learn German</title>
+        <meta name="description" content="Learn German in Coimbatore with certified trainers. Levels A1 to B2, Goethe-Zertifikat exam prep & study abroad in Germany guidance." />
+        <meta name="keywords" content="German Classes" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -167,7 +169,7 @@ const German = () => {
   {/*  Hero Section  */}
   <section className="tp-hero">
     <div className="container" data-aos="fade-up">
-      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>German</span> Preparation</h1>
+      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>German</span> Classes</h1>
       <p>Achieve your target score with our expert-led German coaching. Comprehensive study materials, mock tests, and personalized feedback to guarantee your success.</p>
     </div>
   </section>
@@ -427,11 +429,6 @@ const German = () => {
   </section>
 
   {/*  Footer  */}
-  
-  
-  
-  
-  
       </main>
       <Footer />
     </>
