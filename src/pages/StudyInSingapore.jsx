@@ -4,13 +4,14 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
-
 const StudyInSingapore = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyInSingapore - GlobalEdu</title>
+        <title>Study in Singapore | Best Singapore Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in Singapore with expert education consultants in Coimbatore. Get end-to-end guidance on top Asian universities, admissions, courses & Student Pass applications." />
+        <meta name="keywords" content="Study in Singapore" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

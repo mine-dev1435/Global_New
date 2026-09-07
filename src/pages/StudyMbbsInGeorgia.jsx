@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
-
 const StudyMbbsInGeorgia = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyMbbsInGeorgia - GlobalEdu</title>
+        <title>MBBS in Georgia | Best MBBS Consultants in Coimbatore</title>
+        <meta name="description" content="Study MBBS in Georgia with trusted education consultants in Coimbatore. Premier European medical education, high USMLE/NExT pass rates, modern facilities & student visa support." />
+        <meta name="keywords" content="MBBS in Georgia" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -135,7 +136,7 @@ const StudyMbbsInGeorgia = () => {
   {/*  Hero Section  */}
   <section className="mbbs-hero">
     <div className="container" data-aos="fade-up">
-      <h1>Study MBBS in <span className="accent-text" style={{ color: `var(--accent)` }}>Georgia</span></h1>
+      <h1>MBBS in <span className="accent-text" style={{ color: `var(--accent)` }}>Georgia</span></h1>
       <p>Georgia is known for its European-standard education system, high safety standards, and top-tier medical universities that are widely acclaimed.</p>
     </div>
   </section>
@@ -276,12 +277,8 @@ const StudyMbbsInGeorgia = () => {
     </div>
   </section>
 
-  {/*  Footer  */}
-  
-  
-  
-  
-  
+  {/* Related Destinations */}
+
       </main>
       <Footer />
     </>

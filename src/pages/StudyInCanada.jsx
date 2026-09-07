@@ -4,13 +4,14 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
-
 const StudyInCanada = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>Study in Canada - GlobalEdu</title>
+        <title>Study in Canada | Best Canada Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in Canada with expert education consultants in Coimbatore. The Global Ties offers complete guidance for top Canadian university admissions, student visa & scholarships." />
+        <meta name="keywords" content="Study in Canada" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

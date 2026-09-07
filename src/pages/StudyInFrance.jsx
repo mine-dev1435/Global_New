@@ -4,13 +4,14 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
-
 const StudyInFrance = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyInFrance - GlobalEdu</title>
+        <title>Study in France | Best France Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in France with expert education consultants in Coimbatore. Expert support for Campus France procedures, top Grand Écoles, public universities & student visas." />
+        <meta name="keywords" content="Study in France" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

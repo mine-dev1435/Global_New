@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
-
 const StudyMbbsInBangladesh = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyMbbsInBangladesh - GlobalEdu</title>
+        <title>MBBS in Bangladesh | Best MBBS Consultants in Coimbatore</title>
+        <meta name="description" content="Study MBBS in Bangladesh with expert education consultants in Coimbatore. High FMGE/NExT success rate, identical syllabus & disease patterns to India, top medical colleges & visa support." />
+        <meta name="keywords" content="MBBS in Bangladesh" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -135,7 +136,7 @@ const StudyMbbsInBangladesh = () => {
   {/*  Hero Section  */}
   <section className="mbbs-hero">
     <div className="container" data-aos="fade-up">
-      <h1>Study MBBS in <span className="accent-text" style={{ color: `var(--accent)` }}>Bangladesh</span></h1>
+      <h1>MBBS in <span className="accent-text" style={{ color: `var(--accent)` }}>Bangladesh</span></h1>
       <p>Bangladesh has an extremely high success rate for global licensing exams (like FMGE/NExT) due to a similar disease spectrum, syllabus, and study pattern as India.</p>
     </div>
   </section>
@@ -276,12 +277,8 @@ const StudyMbbsInBangladesh = () => {
     </div>
   </section>
 
-  {/*  Footer  */}
-  
-  
-  
-  
-  
+  {/* Related Destinations */}
+
       </main>
       <Footer />
     </>

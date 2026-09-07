@@ -4,13 +4,14 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
-
 const StudyInDenmark = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyInDenmark - GlobalEdu</title>
+        <title>Study in Denmark | Best Denmark Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in Denmark with expert education consultants in Coimbatore. Complete assistance for high-quality Scandinavian higher education, English-taught programs & residence permits." />
+        <meta name="keywords" content="Study in Denmark" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

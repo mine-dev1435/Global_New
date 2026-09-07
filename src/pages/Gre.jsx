@@ -8,7 +8,9 @@ const Gre = () => {
     <>
       <Header />
       <Helmet>
-        <title>Gre - GlobalEdu</title>
+        <title>GRE Coaching in Coimbatore | Best GRE Training Center</title>
+        <meta name="description" content="Get GRE coaching in Coimbatore with expert quant & verbal trainers. Diagnostic tests, customized study plans & top university admission guidance." />
+        <meta name="keywords" content="GRE Coaching" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -174,7 +176,7 @@ const Gre = () => {
   {/*  Hero Section  */}
   <section className="tp-hero">
     <div className="container" data-aos="fade-up">
-      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>GRE</span> Preparation</h1>
+      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>GRE</span> Coaching</h1>
       <p>Achieve your target score with our expert-led GRE coaching. Comprehensive study materials, mock tests, and personalized feedback to guarantee your success.</p>
     </div>
   </section>

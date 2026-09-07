@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
-
 const StudyMbbsInLatvia = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyMbbsInLatvia - GlobalEdu</title>
+        <title>MBBS in Latvia | Best MBBS Consultants in Coimbatore</title>
+        <meta name="description" content="Study MBBS in Latvia with expert education consultants in Coimbatore. European Union recognized medical degrees, ECTS credits, world-class teaching hospitals & Schengen visa guidance." />
+        <meta name="keywords" content="MBBS in Latvia" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -135,7 +136,7 @@ const StudyMbbsInLatvia = () => {
   {/*  Hero Section  */}
   <section className="mbbs-hero">
     <div className="container" data-aos="fade-up">
-      <h1>Study MBBS in <span className="accent-text" style={{ color: `var(--accent)` }}>Latvia</span></h1>
+      <h1>MBBS in <span className="accent-text" style={{ color: `var(--accent)` }}>Latvia</span></h1>
       <p>Latvia offers European Union (EU) standard medical qualifications, providing graduates with the freedom to practice anywhere across Europe and the globe.</p>
     </div>
   </section>
@@ -273,12 +274,8 @@ const StudyMbbsInLatvia = () => {
     </div>
   </section>
 
-  {/*  Footer  */}
-  
-  
-  
-  
-  
+  {/* Related Destinations */}
+
       </main>
       <Footer />
     </>

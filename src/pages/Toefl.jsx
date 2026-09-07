@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
-
 const Toefl = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>Toefl - GlobalEdu</title>
+        <title>TOEFL Coaching in Coimbatore | Best TOEFL Training Institute</title>
+        <meta name="description" content="Prepare for TOEFL in Coimbatore with experienced faculty. Structured syllabus, computer-delivered practice tests & high score strategies." />
+        <meta name="keywords" content="TOEFL Coaching" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -174,7 +175,7 @@ const Toefl = () => {
   {/*  Hero Section  */}
   <section className="tp-hero">
     <div className="container" data-aos="fade-up">
-      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>TOEFL</span> Preparation</h1>
+      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>TOEFL</span> Coaching</h1>
       <p>Achieve your target score with our expert-led TOEFL coaching. Comprehensive study materials, mock tests, and personalized feedback to guarantee your success.</p>
     </div>
   </section>
@@ -457,12 +458,8 @@ const Toefl = () => {
     </div>
   </section>
 
-  {/*  Footer  */}
-  
-  
-  
-  
-  
+  {/* Related Courses */}
+
       </main>
       <Footer />
     </>

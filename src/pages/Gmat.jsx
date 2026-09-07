@@ -8,7 +8,9 @@ const Gmat = () => {
     <>
       <Header />
       <Helmet>
-        <title>Gmat - GlobalEdu</title>
+        <title>GMAT Coaching in Coimbatore | Best GMAT Prep Institute</title>
+        <meta name="description" content="Join GMAT coaching in Coimbatore for top business school admissions. Expert strategies for quantitative, verbal & data insights." />
+        <meta name="keywords" content="GMAT Coaching" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -174,7 +176,7 @@ const Gmat = () => {
   {/*  Hero Section  */}
   <section className="tp-hero">
     <div className="container" data-aos="fade-up">
-      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>GMAT</span> Preparation</h1>
+      <h1><span className="accent-text" style={{ color: `var(--accent)` }}>GMAT</span> Coaching</h1>
       <p>Achieve your target score with our expert-led GMAT coaching. Comprehensive study materials, mock tests, and personalized feedback to guarantee your success.</p>
     </div>
   </section>
@@ -355,11 +357,6 @@ const Gmat = () => {
   </section>
 
   {/*  Footer  */}
-  
-  
-  
-  
-  
       </main>
       <Footer />
     </>

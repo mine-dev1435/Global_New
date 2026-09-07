@@ -4,13 +4,14 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
-
 const StudyInDubai = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyInDubai - GlobalEdu</title>
+        <title>Study in Dubai | Best Dubai Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in Dubai with expert education consultants in Coimbatore. Explore world-class international branch campuses, streamlined admissions & rapid visa processing." />
+        <meta name="keywords" content="Study in Dubai" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

@@ -4,13 +4,14 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
-
 const StudyInAustralia = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyInAustralia - GlobalEdu</title>
+        <title>Study in Australia | Best Australia Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in Australia with expert education consultants in Coimbatore. Get end-to-end support for university admissions, Subclass 500 student visas & post-study work opportunities." />
+        <meta name="keywords" content="Study in Australia" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

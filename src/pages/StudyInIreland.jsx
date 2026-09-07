@@ -4,13 +4,14 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
-
 const StudyInIreland = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyInIreland - GlobalEdu</title>
+        <title>Study in Ireland | Best Ireland Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in Ireland with expert education consultants in Coimbatore. Expert counseling for top Irish university admissions, stay-back work permits & student visa processing." />
+        <meta name="keywords" content="Study in Ireland" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

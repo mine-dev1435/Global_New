@@ -4,13 +4,14 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
-
 const StudyInSpain = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyInSpain - GlobalEdu</title>
+        <title>Study in Spain | Best Spain Education Consultants in Coimbatore</title>
+        <meta name="description" content="Study in Spain with expert education consultants in Coimbatore. Gain admission to top European business schools, English-medium programs & student visa guidance." />
+        <meta name="keywords" content="Study in Spain" />
         <link rel="stylesheet" href="/study_in_canada.css" />
       </Helmet>
       <main>

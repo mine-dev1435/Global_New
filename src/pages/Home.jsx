@@ -38,7 +38,9 @@ const Home = () => {
     <>
       <Header />
       <Helmet>
-        <title>Home - GlobalEdu</title>
+        <title>Study Abroad Consultants in Coimbatore | The Global Ties</title>
+        <meta name="description" content="The Global Ties is the leading study abroad consultancy in Coimbatore. Offering comprehensive overseas education counseling, university admissions, and visa support." />
+        <meta name="keywords" content="Study Abroad Consultants in Coimbatore, Study in Canada, Study in UK, Study in Australia, Study in USA, Study in Germany, MBBS Abroad, IELTS Coaching, PTE Coaching" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -56,13 +58,13 @@ const Home = () => {
             <i className="fas fa-globe-americas me-2"></i> Your Trusted Global Education Partner
           </div>
           <h1 className="display-4 fw-bold text-white mb-4" style={{ lineHeight: `1.2` }}>
-            Empower Your Future Through <span className="accent-text" style={{ color: `var(--accent)` }}>Education</span>
+            <span className="accent-text" style={{ color: `var(--accent)` }}>Study Abroad Consultants</span> in Coimbatore
           </h1>
           <span className="text-white opacity-75 mb-5 fs-5" style={{ lineHeight: `1.6`, maxWidth: `90%` }}>
             Join a global community of learners and leaders. Experience world-class infrastructure and industry-aligned curriculum designed for your success.
           </span>
           <div className="d-flex flex-wrap gap-3">
-            <a href="#contact" className="btn btn-custom px-4 py-3 fw-bold shadow-lg" style={{ borderRadius: `50px`, fontSize: `16px` }}>
+            <a href="#contact" onClick={(e) => { e.preventDefault(); const el = document.getElementById('contact'); if (el) { const y = el.getBoundingClientRect().top + window.pageYOffset - 70; window.scrollTo({ top: y, behavior: 'smooth' }); } }} className="btn btn-custom px-4 py-3 fw-bold shadow-lg" style={{ borderRadius: `50px`, fontSize: `16px` }}>
               Apply Now <i className="fas fa-arrow-right ms-2"></i>
             </a>
             <a href="#courses" className="btn btn-outline-light px-4 py-3 fw-bold" style={{ borderRadius: `50px`, fontSize: `16px`, borderWidth: `2px` }}>
@@ -750,11 +752,6 @@ Thousands of students have successfully started their global education journey w
         </div>
       </div>
     </section>
-
-  
-
-
-
       </main>
       <Footer />
     </>

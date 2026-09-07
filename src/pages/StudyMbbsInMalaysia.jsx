@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
-
 const StudyMbbsInMalaysia = () => {
   return (
     <>
       <Header />
       <Helmet>
-        <title>StudyMbbsInMalaysia - GlobalEdu</title>
+        <title>MBBS in Malaysia | Best MBBS Consultants in Coimbatore</title>
+        <meta name="description" content="Study MBBS in Malaysia with expert education consultants in Coimbatore. Guidance on top-ranked medical colleges, globally accredited degrees, tuition fees & visa support." />
+        <meta name="keywords" content="MBBS in Malaysia" />
       </Helmet>
       <main>
         {/* Original HTML */}
@@ -135,7 +136,7 @@ const StudyMbbsInMalaysia = () => {
   {/*  Hero Section  */}
   <section className="mbbs-hero">
     <div className="container" data-aos="fade-up">
-      <h1>Study MBBS in <span className="accent-text" style={{ color: `var(--accent)` }}>Malaysia</span></h1>
+      <h1>MBBS in <span className="accent-text" style={{ color: `var(--accent)` }}>Malaysia</span></h1>
       <p>Malaysia provides high-quality healthcare education and training, with modern universities, multicultural environments, and internationally recognized medical qualifications.</p>
     </div>
   </section>
@@ -276,12 +277,8 @@ const StudyMbbsInMalaysia = () => {
     </div>
   </section>
 
-  {/*  Footer  */}
-  
-  
-  
-  
-  
+  {/* Related Destinations */}
+
       </main>
       <Footer />
     </>
