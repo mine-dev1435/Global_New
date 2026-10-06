@@ -2792,3 +2792,40 @@ p {
     font-size: 14px !important;
   }
 }
+
+/* Phone Input Group with Country Code Selector */
+.phone-input-group {
+  display: flex !important;
+  gap: 8px !important;
+  width: 100% !important;
+  align-items: stretch;
+}
+
+.phone-input-group .country-code-select {
+  width: 98px !important;
+  min-width: 98px !important;
+  max-width: 98px !important;
+  flex: 0 0 98px !important;
+  padding: 8px 6px !important;
+  cursor: pointer;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 13px;
+  color: #334155;
+  margin-bottom: 0 !important;
+}
+
+.phone-input-group input[type="tel"] {
+  flex: 1 1 auto !important;
+  width: 100% !important;
+  margin-bottom: 0 !important;
+}
+
+.lead-form-card .phone-input-group .country-code-select,
+.contact-form-card .phone-input-group .country-code-select,
+.sidebar-form-card .phone-input-group .country-code-select {
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}

@@ -23,6 +23,10 @@ const Footer = () => {
         <i class="fas fa-phone-alt fa-flip-horizontal me-2"></i>
         <a href="tel:+919787700661">+91 97877 00661</a>
       </p>
+      <p class="mb-1">
+        <i class="fas fa-phone-alt fa-flip-horizontal me-2"></i>
+        <a href="tel:04224539199">0422 - 4539199</a>
+      </p>
       <p>
         <i class="fas fa-envelope me-2"></i>
         <a href="mailto:info@theglobalties.com">info@theglobalties.com</a>

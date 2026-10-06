@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { handleFormSubmit } from '../utils/emailService';
+import PhoneInputWithCountry from '../components/PhoneInputWithCountry';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
@@ -317,7 +318,7 @@ const BlogDetail = () => {
                                         <form onSubmit={handleFormSubmit}>
                                             <input type="text" name="full_name" className="form-control" placeholder="Full Name" required />
                                             <input type="email" name="email" className="form-control" placeholder="Email Address" required />
-                                            <input type="tel" name="phone" className="form-control" placeholder="Phone Number" required />
+                                            <PhoneInputWithCountry className="form-control" placeholder="Phone Number" required={true} style={{ marginBottom: '15px' }} />
                                             <select name="destination" className="form-control" required defaultValue="">
                                                 <option value="" disabled>Select Destination</option>
                                                 <option value="Russia">Russia</option>

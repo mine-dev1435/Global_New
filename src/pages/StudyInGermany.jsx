@@ -1,4 +1,5 @@
 import { handleFormSubmit } from '../utils/emailService';
+import PhoneInputWithCountry from '../components/PhoneInputWithCountry';
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -682,10 +683,8 @@ Our services include university selection, admission processing, profile evaluat
          <div className="lead-form-card glass-form" style={{ maxWidth: `380px`, margin: `0 auto` }}>
               <h3 className="mb-4 fw-bold">Request Information</h3>
               <form onSubmit={handleFormSubmit}>
-                <div className="form-row">
-                  <input type="text" name="full_name" className="custom-input" placeholder="Full Name" required="" />
-                  <input type="tel" name="phone" className="custom-input" placeholder="Phone Number" required="" />
-                </div>
+                <input type="text" name="full_name" className="custom-input" placeholder="Full Name" required="" />
+                  <PhoneInputWithCountry className="custom-input" placeholder="Phone Number" required={true} />
                 <input type="email" name="email" className="custom-input" placeholder="Email Address" required="" />
                 <select name="course" className="custom-input" required="">
                   <option value="" disabled="" selected="">Select Course Interested In</option>
