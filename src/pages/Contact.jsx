@@ -179,7 +179,7 @@ const Contact = () => {
                             </p>
                             <p>
                                  <i className="fa-solid fa-envelope"></i>
-                                <a href="mailto:tgtabroad@gmail.com">tgtabroad@gmail.com </a>
+                                <a href="mailto:tgthrs@gmail.com">tgthrs@gmail.com </a>
                             </p>
                         </div>
                     </div>
