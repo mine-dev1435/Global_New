@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
+import PhoneInputWithCountry from '../components/PhoneInputWithCountry';
 const StudyInDenmark = () => {
   return (
     <>
@@ -835,10 +836,8 @@ Danish universities are internationally recognized for their research-driven edu
               </div>
               
               <form onSubmit={handleFormSubmit}>
-                <div className="form-row">
-                  <input type="text" name="full_name" className="custom-input" placeholder="Full Name" required="" />
-                  <input type="tel" name="phone" className="custom-input" placeholder="Phone Number" required="" />
-                </div>
+                <input type="text" name="full_name" className="custom-input" placeholder="Full Name" required="" />
+                  <PhoneInputWithCountry className="custom-input" placeholder="Phone Number" required={true} />
                 <input type="email" name="email" className="custom-input" placeholder="Email Address" required="" />
                 
                 <input type="text" name="course" className="custom-input" required="" placeholder="Course/Destination Interested In" />

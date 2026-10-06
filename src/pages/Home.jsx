@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import InstagramStories from '../components/InstagramStories';
 import { handleFormSubmit } from '../utils/emailService';
+import PhoneInputWithCountry from '../components/PhoneInputWithCountry';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -735,10 +736,8 @@ Thousands of students have successfully started their global education journey w
               </div>
               
               <form onSubmit={handleFormSubmit}>
-                <div className="form-row">
-                  <input type="text" name="full_name" className="custom-input" placeholder="Full Name" required={true} />
-                  <input type="tel" name="phone" className="custom-input" placeholder="Phone Number" required={true} />
-                </div>
+                <input type="text" name="full_name" className="custom-input" placeholder="Full Name" required={true} />
+                  <PhoneInputWithCountry className="custom-input" placeholder="Phone Number" required={true} />
                 <input type="email" name="email" className="custom-input" placeholder="Email Address" required={true} />
                 
                 <input type="text" name="course" className="custom-input" required="" placeholder="Course/Destination Interested In" />

@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet-async';
 import { handleFormSubmit } from '../utils/emailService';
+import PhoneInputWithCountry from '../components/PhoneInputWithCountry';
 
 const Contact = () => {
   return (
@@ -166,6 +167,10 @@ const Contact = () => {
                                 <a href="tel:+919787700661">+91 97877 00661</a>
                             </p>
                             <p>
+                                <i className="fa-solid fa-phone fa-flip-horizontal"></i>
+                                <a href="tel:04224539199">0422 - 4539199</a>
+                            </p>
+                            <p>
                                 <i className="fa-solid fa-envelope"></i>
                                 <a href="mailto:info@theglobalties.com">info@theglobalties.com</a>
                                 
@@ -239,7 +244,7 @@ const Contact = () => {
                         
                         <form onSubmit={handleFormSubmit}>
                             <input type="text" name="full_name" className="form-control" placeholder="Full Name" required={true} />
-                            <input type="tel" name="phone" className="form-control" placeholder="Phone Number" required={true} />
+                            <PhoneInputWithCountry className="form-control" placeholder="Phone Number" required={true} style={{ marginBottom: '15px' }} />
                             <input type="email" name="email" className="form-control" placeholder="Email Address" required={true} />
                             
                             <input type="text" name="course" className="form-control" required={true} style={{ marginBottom: `15px` }} placeholder="Course/Destination Interested In" />
